@@ -1,16 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-
+import Footer from './assets/components/layout/Footer';
+import Header from './assets/components/layout/Header';
 
 function App() {
-
   return (
     <>
-      <div>
-        <p>Hello, world!</p>
-      </div>
+      <Header title='React Contact' />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
